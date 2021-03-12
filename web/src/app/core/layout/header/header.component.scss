@@ -1,0 +1,12 @@
+.header-block {
+    background-color: black;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .app-title {
+        font-size: 24px;
+    }
+}

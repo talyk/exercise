@@ -1,0 +1,11 @@
+@mixin for-desktop-up {
+    @media (min-width: 1280px) {
+        @content;
+    }
+}
+
+@mixin for-mobile {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
